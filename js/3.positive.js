@@ -13,4 +13,4 @@ function findNum(n) {
     console.log(k);
   }
 }
-findNum(8);
+findNum(1002);

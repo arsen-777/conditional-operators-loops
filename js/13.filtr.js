@@ -4,7 +4,7 @@ function filtr(arr) {
   let arr2 = arr.filter(function (val) {
     return typeof val === "number";
   });
-  alert(
+  console.log(
     arr2.sort(function (a, b) {
       return a - b;
     })
